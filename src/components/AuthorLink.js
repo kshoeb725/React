@@ -33,7 +33,7 @@ export default function AuthorLink({ authorSlug }) {
         <div className="absolute z-10 mt-2 left-0 bg-white border shadow-lg p-4 rounded-md w-64 transition duration-150">
           <div className="flex items-center gap-4">
             <img
-              src={author.image || "https://codolog.in/wp-content/uploads/2023/10/Untitled-design-4.png"}
+              src={author.image || "https://via.placeholder.com/60"}
               alt={author.name}
               className="w-14 h-14 rounded-full object-cover border"
             />
